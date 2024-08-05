@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #247c04;
+    padding: 20px;
+  }
+  
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #041426;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #021325;
+  }
+  
